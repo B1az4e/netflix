@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>i love watching blazeflix best website!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+  </head>
+  <body>
+    <header>
+    </header>
+    <main>
+      <div class="featured">
+        <h2>The Project</h2>
+        <div class="featured__buttons">
+          <button class="button__play"><i class="fas fa-play"></i>Play</button>
+          <button>My List</button>
+        </div>
+        <div class="featured__description">
+          Watch how blaze FAILS TO DO ONE PROJECT AND FINALY MAKE IT TO THE END OF CLEVER PROGRAMMER LIKE WHAT THE HECL!!
+        </div>
+      </div>
+      <div class="netflixOriginals">
+        <div class="original__header">
+          <h2>Ugly Orginals</h2>
+        </div>
+        <div class="original__movies">
+          <!-- Orignal Movies List Here -->
+        </div>
+      </div>
+      <div class="movies">
+        <div class="movies__header">
+          <h2>WishBiss!!! OHHH</h2>
+        </div>
+        <div id="wishlist" class="movies__container"></div>
+        <div class="movies__header">
+          <h2>Trending Next Week</h2>
+        </div>
+        <div id="trending" class="movies__container">
+          <!-- Trending Next Week list -->
+        </div>
+        <div class="movies__header">
+          <h2>Low Rated</h2>
+        </div>
+        <div id="top_rated" class="movies__container">
+          <!-- low Rated Movies Lis -->
+        </div>
+      </div>
+    </main>
+    <!-- Modal // idk -->
+    <div
+      class="modal fade"
+      id="trailerModal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">borrringgge</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <span class="movieNotFound">Trailer Not Found L in the CHATTT!</span>
+            <iframe
+              id="movieTrailer"
+              height="400"
+              src=""
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
